@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./static/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./static/script.js" defer></script>
+
+    <title>Duquesne Incline</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./static/DuqInclineLogo.png" alt="Duquesne Incline Logo" />
+      </div>
+      <h1>Duquesne Incline</h1>
+       <!-- Navigation links -->
+       <button id = "hamburger-btn" onclick="hamburger()">Nav menu</button>
+       <!-- Navigation links -->
+       <div class="off-screen-menu active">
+         <nav id="nav-menu">
+           <a href="index.html">Home</a>
+           <a href="views/about.html">About</a>
+           <a href="views/plan-trip.html">Plan Your Trip</a>
+           <a href="views/gift-shop.html">Gift Shop</a>
+         </nav>
+       </div>
+
+    </header>
+    <main>
+      <br>
+      <h1>Home</h1>
+      
+      <div class="horizontal-container">
+        <p>
+          Take a step back in time on a century-old cable car and see the best views of downtown Pittsburgh while riding
+            one of the few remaining inclines in the country. <br /><br />Opened on May 20, 1877, the Duquesne Incline was
+            rescued and restored by a group of local residents in 1963 and still delights residents and visitors with its
+            original, elegant, wooden cable cars. Now you can visit the interior of the incline and watch the machinery
+            while it operates. <br /><br />The Duquesne Incline&#39;s upper station houses a museum of Pittsburgh history,
+            including photos and a storehouse of information on inclines from around the world. Unusual Pittsburgh
+            souvenirs, maps and photos can be found at the gift shop.
+        </p>
+        <!-- Interactive Photo Gallery -->
+        <div class="gallery">
+          <div class="gallery-slides">
+            <!-- Add your gallery images here. Make sure the first image has the 'active' class -->
+            <img src="./static/duquesne.png" alt="Duquesne Incline 1" class="gallery-image active">
+            <img src="./static/duquesne2.jpg" alt="Duquesne Incline 2" class="gallery-image">
+            <img src="./static/duquesne3.jpg" alt="Duquesne Incline 3" class="gallery-image">
+          </div>
+          <button class="gallery-prev">Prev</button>
+          <button class="gallery-next">Next</button>
+        </div>
+      </div>
+      
+    
+      <div class="horizontal-container">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/ve3KMUIlSGk?si=1KRYPixoGFu8UeKJ">
+        </iframe>
+        <div>
+          <p>1197 West Carson Street, Pittsburgh, PA 15219</p>
+          <p>More about the Duquesne Incline</p>
+          <p>Plan your trip today!</p>
+          <p>Gift Items</p>
+          <div class="get-directions">
+            <p>Get Directions</p>
+            <input placeholder="Enter Location" type="email" />
+            <button>Directions</button>
+          </div>
+        </div>
+      </div>
+      
+     
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-UI">
+      <div>
+        <p>Contact Information</p>
+        <p>1197 West Carson Street, Pittsburgh, PA 15219</p>
+        <p>Phone Number: 412.381.1665</p>
+        <p>Fax: 412.381.1943</p>
+        <a href="mailto:duq.incline@duquessneincline.org">duq.incline@duquesneincline.org</a>
+      </div>
+      <div>
+        <p>Subscribe to our Mailing List</p>
+        <input placeholder="Name" type="name" /><br>
+        <input placeholder="Email" type="email" /><br>
+        <input placeholder="Phone" type="number"/><br>
+        <input placeholder="Zip Code" type = "number"/><br>
+        Receive messages on SMS?<input placeholder="SMS" type="checkbox"/>
+        <button>submit</button>
+      </div>
+    </footer>
+  </body>
+  
+</html>

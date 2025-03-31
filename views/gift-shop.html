@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Gift Shop - Duquesne Incline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css" />
+    <script src="../static/script.js"></script>
+
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        <img src="../static/DuqInclineLogo.png" alt="Duquesne Incline Logo" />
+      </div>
+      <h1>Duquesne Incline</h1>
+      <button id = "hamburger-btn" onclick="hamburger()">Nav menu</button>
+      <!-- Navigation links -->
+      <div class="off-screen-menu active">
+        <nav id="nav-menu">
+          <a href="../index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="plan-trip.html">Plan Your Trip</a>
+          <a href="gift-shop.html">Gift Shop</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <h2>Gift Shop</h2>
+      <section class="products">
+        <article class="product-item">
+          <img src="../static/shotglass.jpg" alt="Incline Shot Glasses" />
+          <h3>Incline Shot Glasses</h3>
+          <p>Enjoy a piece of history with our uniquely designed shot glasses.</p>
+        </article>
+        <article class="product-item">
+          <img src="../static/woodcar.jpg" alt="Wooden Ornament" />
+          <h3>Incline Wooden Ornament</h3>
+          <p>A handcrafted ornament that captures the charm of the incline.</p>
+        </article>
+        <article class="product-item">
+          <img src="../static/metalplates.jpg" alt="Metal Plate" />
+          <h3>Incline Metal Plate</h3>
+          <p>Take home a durable souvenir – a metal plate featuring historic imagery.</p>
+        </article>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-UI">
+        <div>
+          <p>Contact Information</p>
+          <p>1197 West Carson Street, Pittsburgh, PA 15219</p>
+          <p>Phone Number: 412.381.1665</p>
+          <p>Fax: 412.381.1943</p>
+          <a href="mailto:duq.incline@duquessneincline.org">duq.incline@duquesneincline.org</a>
+        </div>
+        <div>
+          <p>Subscribe to our Mailing List</p>
+          <input placeholder="Name" type="name" /><br>
+          <input placeholder="Email" type="email" /><br>
+          <input placeholder="Phone" type="number"/><br>
+          <input placeholder="Zip Code" type = "number"/><br>
+          Receive messages on SMS?<input placeholder="SMS" type="checkbox"/>
+          <button>submit</button>
+        </div>
+      </footer>
+    <script src="../static/scripts.js"></script>
+  </body>
+</html>

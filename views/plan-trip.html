@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Plan Your Trip - Duquesne Incline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/script.js"></script>
+
+
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="site-header">
+      <div class="logo">
+        <img src="../static/DuqInclineLogo.png" alt="Duquesne Incline Logo" />
+      </div>
+      <h1>Duquesne Incline</h1>
+      <button id = "hamburger-btn" onclick="hamburger()">Nav menu</button>
+      <!-- Navigation links -->
+      <div class="off-screen-menu active">
+        <nav id="nav-menu">
+          <a href="../index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="plan-trip.html">Plan Your Trip</a>
+          <a href="gift-shop.html">Gift Shop</a>
+        </nav>
+      </div>
+
+      
+
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+      <h2>Plan Your Trip</h2>
+      <section class="trip-info">
+        <p>
+          Explore Pittsburgh with a ride on the historic Duquesne Incline. Whether you’re a first-time visitor or returning for another look at the city’s skyline, our website provides all the information you need.
+        </p>
+        <div class="map-embed">
+          <!-- Embedded Google Map (replace API key and coordinates as needed) -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.123456789!2d-80.000000!3d40.440624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f!2sDuquesne+Incline!5e0!3m2!1sen!2sus!4v1580000000000"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            title="Duquesne Incline Map">
+          </iframe>
+        </div>
+      </section>
+      <!-- New Section: Field Trip Program for Youth -->
+      <section class="field-trip-info styled-section">
+        <h3>Field Trip Program for Youth</h3>
+        <p>
+          The Duquesne Incline offers an exciting and educational field trip program for youth groups. Available for groups of ten or more (excluding weekends after 12:00 noon), the program includes:
+        </p>
+        <ul>
+          <li>A teacher’s lesson packet tailored to specific grade levels</li>
+          <li>A round-trip ride on the historic cable car</li>
+          <li>Insights into Pittsburgh’s industrial past and the history of inclines</li>
+          <li>An engaging visit to the machine room to observe original hoisting equipment</li>
+          <li>A panoramic view of downtown Pittsburgh from 400 feet above the river</li>
+        </ul>
+        <div class="button-container">
+            <a href="https://form.jotform.com/240705601606145" target="_blank" class="action-button">Register for School Trip</a>
+          </div>
+      </section>
+      
+      <!-- New Section: City Tours -->
+      <section class="city-tours-info styled-section">
+        <h3>City Tours</h3>
+        <p>
+          Enhance your visit with one of Pittsburgh's guided city tours. Choose from a variety of options:
+        </p>
+        <ul>
+          <li><strong>Pittsburgh Movie Locations:</strong> Explore famous spots featured in local films.</li>
+          <li><strong>Sports Tours:</strong> Visit iconic sports landmarks and stadiums.</li>
+          <li><strong>Breweries & Wineries:</strong> Sample the city’s best local brews and wines while touring historical districts.</li>
+        </ul>
+        <div class="button-container">
+            <a href="https://www.visitpittsburgh.com/things-to-do/tours-sightseeing/" target="_blank" class="action-button">View City Tours</a>
+          </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-UI">
+        <div>
+          <p>Contact Information</p>
+          <p>1197 West Carson Street, Pittsburgh, PA 15219</p>
+          <p>Phone Number: 412.381.1665</p>
+          <p>Fax: 412.381.1943</p>
+          <a href="mailto:duq.incline@duquessneincline.org">duq.incline@duquesneincline.org</a>
+        </div>
+        <div>
+          <p>Subscribe to our Mailing List</p>
+          <input placeholder="Name" type="name" /><br>
+          <input placeholder="Email" type="email" /><br>
+          <input placeholder="Phone" type="number"/><br>
+          <input placeholder="Zip Code" type = "number"/><br>
+          Receive messages on SMS?<input placeholder="SMS" type="checkbox"/>
+          <button>submit</button>
+        </div>
+      </footer>
+  </body>
+</html>
